@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4be14ca5-7a19-4632-96b5-33ec477f733e" name="Default" comment="" />
+    <list default="true" id="4be14ca5-7a19-4632-96b5-33ec477f733e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/contentModel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" afterPath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" afterPath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,26 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Localizer.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Localizer.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding>
-                <marker date="1516615923000" expanded="true" signature="6:92" ph="..." />
-                <marker date="1516615923000" expanded="true" signature="122:2974" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="151:2780" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="507:596" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="631:696" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="725:1145" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="866:970" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="987:1135" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="1189:1362" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="1405:1499" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="1578:2273" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="1618:2263" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="2379:2715" ph="{...}" />
-                <marker date="1516615923000" expanded="true" signature="2806:2972" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="6:66" ph="..." />
+                <marker date="1516619117000" expanded="true" signature="96:3072" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="125:2878" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="481:570" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="605:670" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="699:1117" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="838:942" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="959:1107" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="1161:1453" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="1496:1590" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="1669:2364" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="1709:2354" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="2470:2806" ph="{...}" />
+                <marker date="1516619117000" expanded="true" signature="2904:3070" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,8 +45,8 @@
       <file leaf-file-name="LanguageXmlReader.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/LanguageXmlReader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <marker date="1516614687000" expanded="false" signature="6:101" ph="..." />
                 <marker date="1516614687000" expanded="true" signature="131:2069" ph="{...}" />
@@ -52,6 +58,24 @@
                 <marker date="1516614687000" expanded="true" signature="1143:1982" ph="{...}" />
                 <marker date="1516614687000" expanded="true" signature="1508:1933" ph="{...}" />
                 <marker date="1516614687000" expanded="true" signature="1589:1758" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example1.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Example/Example1.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+              <folding>
+                <marker date="1516618986000" expanded="false" signature="6:104" ph="..." />
+                <marker date="1516618986000" expanded="true" signature="143:557" ph="{...}" />
+                <marker date="1516618986000" expanded="true" signature="197:209" ph="{...}" />
+                <marker date="1516618986000" expanded="true" signature="267:279" ph="{...}" />
+                <marker date="1516618986000" expanded="true" signature="313:555" ph="{...}" />
+                <marker date="1516618986000" expanded="true" signature="380:458" ph="{...}" />
+                <marker date="1516618986000" expanded="true" signature="471:549" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,39 +99,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UILangText.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UILangText.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="304">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
-                <marker date="1516615870000" expanded="true" signature="6:40" ph="..." />
-                <marker date="1516615870000" expanded="true" signature="70:721" ph="{...}" />
-                <marker date="1516615870000" expanded="true" signature="116:719" ph="{...}" />
-                <marker date="1516615870000" expanded="true" signature="241:302" ph="{...}" />
-                <marker date="1516615870000" expanded="true" signature="335:436" ph="{...}" />
-                <marker date="1516615870000" expanded="true" signature="470:571" ph="{...}" />
-                <marker date="1516615870000" expanded="true" signature="636:713" ph="{...}" />
+                <marker date="1516618808000" expanded="true" signature="6:40" ph="..." />
+                <marker date="1516618808000" expanded="true" signature="70:726" ph="{...}" />
+                <marker date="1516618808000" expanded="true" signature="116:724" ph="{...}" />
+                <marker date="1516618808000" expanded="true" signature="241:361" ph="{...}" />
+                <marker date="1516618808000" expanded="true" signature="391:472" ph="{...}" />
+                <marker date="1516618808000" expanded="true" signature="506:587" ph="{...}" />
+                <marker date="1516618808000" expanded="true" signature="641:718" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Russian.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Resources/Lang/Russian.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="English.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Resources/Lang/English.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/XmlParserUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/LanguageXmlReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Example/Example1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/LangManager.cs" />
         <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/LanguageXmlReader.cs" />
-        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Resources/Lang/English.xml" />
+        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Resources/Lang/Russian.xml" />
         <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" />
+        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Example/Example1.cs" />
+        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +174,7 @@
     <option name="width" value="1392" />
     <option name="height" value="964" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -227,12 +279,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516612198353</updated>
       <workItem from="1516612199599" duration="53000" />
-      <workItem from="1516612289372" duration="3597000" />
+      <workItem from="1516612289372" duration="4617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3650000" />
+    <option name="totallyTimeSpent" value="4670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,13 +297,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="449" y="62" width="1392" height="964" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -283,20 +336,20 @@
         <state relative-caret-position="400">
           <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <marker date="1516615923000" expanded="true" signature="6:92" ph="..." />
-            <marker date="1516615923000" expanded="true" signature="122:2974" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="151:2780" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="507:596" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="631:696" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="725:1145" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="866:970" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="987:1135" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1189:1362" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1405:1499" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1578:2273" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1618:2263" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="2379:2715" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="2806:2972" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1516619117000" expanded="true" signature="96:3072" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="125:2878" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="481:570" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="605:670" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="699:1117" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="838:942" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="959:1107" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1161:1453" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1496:1590" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1669:2364" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1709:2354" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="2470:2806" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="2904:3070" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -352,10 +405,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Resources/Lang/Russian.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Resources/Lang/English.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1516618808000" expanded="true" signature="6:40" ph="..." />
+            <marker date="1516618808000" expanded="true" signature="70:726" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="116:724" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="241:361" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="391:472" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="506:587" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="641:718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/LanguageXmlReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
             <marker date="1516614687000" expanded="false" signature="6:101" ph="..." />
             <marker date="1516614687000" expanded="true" signature="131:2069" ph="{...}" />
@@ -371,41 +456,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Example/Example1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="256">
+          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding>
-            <marker date="1516615923000" expanded="true" signature="6:92" ph="..." />
-            <marker date="1516615923000" expanded="true" signature="122:2974" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="151:2780" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="507:596" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="631:696" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="725:1145" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="866:970" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="987:1135" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1189:1362" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1405:1499" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1578:2273" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="1618:2263" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="2379:2715" ph="{...}" />
-            <marker date="1516615923000" expanded="true" signature="2806:2972" ph="{...}" />
+            <marker date="1516618986000" expanded="false" signature="6:104" ph="..." />
+            <marker date="1516618986000" expanded="true" signature="143:557" ph="{...}" />
+            <marker date="1516618986000" expanded="true" signature="197:209" ph="{...}" />
+            <marker date="1516618986000" expanded="true" signature="267:279" ph="{...}" />
+            <marker date="1516618986000" expanded="true" signature="313:555" ph="{...}" />
+            <marker date="1516618986000" expanded="true" signature="380:458" ph="{...}" />
+            <marker date="1516618986000" expanded="true" signature="471:549" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding>
-            <marker date="1516615870000" expanded="true" signature="6:40" ph="..." />
-            <marker date="1516615870000" expanded="true" signature="70:721" ph="{...}" />
-            <marker date="1516615870000" expanded="true" signature="116:719" ph="{...}" />
-            <marker date="1516615870000" expanded="true" signature="241:302" ph="{...}" />
-            <marker date="1516615870000" expanded="true" signature="335:436" ph="{...}" />
-            <marker date="1516615870000" expanded="true" signature="470:571" ph="{...}" />
-            <marker date="1516615870000" expanded="true" signature="636:713" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1516619117000" expanded="true" signature="96:3072" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="125:2878" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="481:570" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="605:670" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="699:1117" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="838:942" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="959:1107" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1161:1453" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1496:1590" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1669:2364" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="1709:2354" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="2470:2806" ph="{...}" />
+            <marker date="1516619117000" expanded="true" signature="2904:3070" ph="{...}" />
           </folding>
         </state>
       </provider>

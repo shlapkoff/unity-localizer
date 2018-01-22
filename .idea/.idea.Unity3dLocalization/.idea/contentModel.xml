@@ -7,6 +7,15 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="IndieLocalization" t="Include">
+          <e p="Example" t="Include">
+            <e p="Example1.cs" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Lang" t="Include">
+              <e p="English.xml" t="Include" />
+              <e p="Russian.xml" t="Include" />
+            </e>
+          </e>
           <e p="Scripts" t="Include">
             <e p="Localizer.cs" t="Include" />
             <e p="UI" t="Include">

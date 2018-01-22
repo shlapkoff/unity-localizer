@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,7 +26,7 @@ namespace IndigoBunting.Lang
 
         private Localizer()
         {
-            string currLangString = PlayerPrefs.GetString("keyPref", "default");
+            string currLangString = PlayerPrefs.GetString(keyPref, "default");
             if (currLangString.Equals("default"))
             {
                 SetLang(ConvertSystemLanguage(Application.systemLanguage));
@@ -43,6 +42,10 @@ namespace IndigoBunting.Lang
         {
             Language = code;
             stringsDict = LanguageXmlReader.Read(code);
+            
+            PlayerPrefs.SetString(keyPref, code.ToString());
+            PlayerPrefs.Save();
+            
             if (OnChangedLanguage != null) OnChangedLanguage(code);
         }
 
@@ -84,7 +87,7 @@ namespace IndigoBunting.Lang
             {LangCode.Italian, "it"}
         };
 
-        public event Action<LangCode> OnChangedLanguage;
+        public static event Action<LangCode> OnChangedLanguage;
     }
 
     public enum LangCode

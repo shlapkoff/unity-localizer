@@ -13,19 +13,20 @@ namespace IndigoBunting.Lang
         private void Awake()
         {
             text = GetComponent<Text>();
+            SetLocalizedText(Localizer.Instance.Language);
         }
 
-        private void OnEnable()
+        private void Start()
         {
-            Localizer.Instance.OnChangedLanguage += Localizer_OnChangedLanguage;
+            Localizer.OnChangedLanguage += SetLocalizedText;
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
-            Localizer.Instance.OnChangedLanguage -= Localizer_OnChangedLanguage;
+            Localizer.OnChangedLanguage -= SetLocalizedText;
         }
 
-        private void Localizer_OnChangedLanguage(LangCode code)
+        private void SetLocalizedText(LangCode code)
         {
             text.text = Localizer.Instance.GetText(key);
         }
