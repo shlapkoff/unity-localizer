@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4be14ca5-7a19-4632-96b5-33ec477f733e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Stub/TextMeshProUGUI.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Stub/TextMeshProUGUI.cs.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity3dLocalization/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" afterPath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" afterPath="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Localizer.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Localizer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <state relative-caret-position="-336">
+              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <marker date="1516619117000" expanded="true" signature="6:66" ph="..." />
                 <marker date="1516619117000" expanded="true" signature="96:3072" ph="{...}" />
@@ -102,8 +101,8 @@
       <file leaf-file-name="UILangText.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="384">
+              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <marker date="1516618808000" expanded="true" signature="6:40" ph="..." />
                 <marker date="1516618808000" expanded="true" signature="70:726" ph="{...}" />
@@ -113,6 +112,48 @@
                 <marker date="1516618808000" expanded="true" signature="506:587" ph="{...}" />
                 <marker date="1516618808000" expanded="true" signature="641:718" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UILangTextMeshProUGUI.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangTextMeshProUGUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516619838000" expanded="true" signature="21:106" ph="..." />
+                <marker date="1516619838000" expanded="true" signature="136:827" ph="{...}" />
+                <marker date="1516619838000" expanded="true" signature="193:825" ph="{...}" />
+                <marker date="1516619838000" expanded="true" signature="329:460" ph="{...}" />
+                <marker date="1516619838000" expanded="true" signature="490:571" ph="{...}" />
+                <marker date="1516619838000" expanded="true" signature="605:686" ph="{...}" />
+                <marker date="1516619838000" expanded="true" signature="740:819" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextMeshProUGUI.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Stub/TextMeshProUGUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="33" />
+              <folding>
+                <marker date="1516619786000" expanded="true" signature="33:194" ph="{...}" />
+                <marker date="1516619786000" expanded="true" signature="40:101" ph="/// This class is a stub ... " />
+                <marker date="1516619786000" expanded="true" signature="134:192" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextMeshProUGUI.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/350B5F31-A6A5-41CE-BC24-0A3CA9EC28A6/2e/37d2e16a/TextMeshProUGUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,10 +184,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Stub/TextMeshProUGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangTextMeshProUGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/XmlParserUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/LanguageXmlReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/350B5F31-A6A5-41CE-BC24-0A3CA9EC28A6/2e/37d2e16a/TextMeshProUGUI.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/IndieLocalization/Example/Example1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -159,6 +203,8 @@
         <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs" />
         <option value="$PROJECT_DIR$/Assets/IndieLocalization/Example/Example1.cs" />
         <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Stub/TextMeshProUGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangTextMeshProUGUI.cs" />
       </list>
     </option>
   </component>
@@ -231,6 +277,15 @@
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="IndieLocalization" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Stub" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Unity3dLocalization (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="IndieLocalization" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="UI" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
@@ -279,12 +334,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516612198353</updated>
       <workItem from="1516612199599" duration="53000" />
-      <workItem from="1516612289372" duration="4617000" />
+      <workItem from="1516612289372" duration="5319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4670000" />
+    <option name="totallyTimeSpent" value="5372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,22 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1516618808000" expanded="true" signature="6:40" ph="..." />
-            <marker date="1516618808000" expanded="true" signature="70:726" ph="{...}" />
-            <marker date="1516618808000" expanded="true" signature="116:724" ph="{...}" />
-            <marker date="1516618808000" expanded="true" signature="241:361" ph="{...}" />
-            <marker date="1516618808000" expanded="true" signature="391:472" ph="{...}" />
-            <marker date="1516618808000" expanded="true" signature="506:587" ph="{...}" />
-            <marker date="1516618808000" expanded="true" signature="641:718" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/XML/LanguageXmlReader.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -474,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Localizer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state relative-caret-position="-336">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <marker date="1516619117000" expanded="true" signature="6:66" ph="..." />
             <marker date="1516619117000" expanded="true" signature="96:3072" ph="{...}" />
@@ -491,6 +530,58 @@
             <marker date="1516619117000" expanded="true" signature="1709:2354" ph="{...}" />
             <marker date="1516619117000" expanded="true" signature="2470:2806" ph="{...}" />
             <marker date="1516619117000" expanded="true" signature="2904:3070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1516618808000" expanded="true" signature="6:40" ph="..." />
+            <marker date="1516618808000" expanded="true" signature="70:726" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="116:724" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="241:361" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="391:472" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="506:587" ph="{...}" />
+            <marker date="1516618808000" expanded="true" signature="641:718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/350B5F31-A6A5-41CE-BC24-0A3CA9EC28A6/2e/37d2e16a/TextMeshProUGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/Stub/TextMeshProUGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="33" />
+          <folding>
+            <marker date="1516619786000" expanded="true" signature="33:194" ph="{...}" />
+            <marker date="1516619786000" expanded="true" signature="40:101" ph="/// This class is a stub ... " />
+            <marker date="1516619786000" expanded="true" signature="134:192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IndieLocalization/Scripts/UI/UILangTextMeshProUGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516619838000" expanded="true" signature="21:106" ph="..." />
+            <marker date="1516619838000" expanded="true" signature="136:827" ph="{...}" />
+            <marker date="1516619838000" expanded="true" signature="193:825" ph="{...}" />
+            <marker date="1516619838000" expanded="true" signature="329:460" ph="{...}" />
+            <marker date="1516619838000" expanded="true" signature="490:571" ph="{...}" />
+            <marker date="1516619838000" expanded="true" signature="605:686" ph="{...}" />
+            <marker date="1516619838000" expanded="true" signature="740:819" ph="{...}" />
           </folding>
         </state>
       </provider>
