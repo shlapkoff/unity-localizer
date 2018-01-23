@@ -6,6 +6,7 @@ namespace IndigoBunting.Lang
 {
     public class Localizer
     {
+        private const string rootPath = "Lang/";
         private const string keyPref = "currentLang";
         private const LangCode defaultLang = LangCode.English;
 
@@ -13,12 +14,12 @@ namespace IndigoBunting.Lang
         private static Localizer instance;
 
         public LangCode Language { get; private set; }
-
+        
         public static Localizer Instance
         {
             get { return instance ?? (instance = new Localizer()); }
         }
-
+        
         public static bool IsNull
         {
             get { return instance == null; }
@@ -41,7 +42,7 @@ namespace IndigoBunting.Lang
         public void SetLang(LangCode code)
         {
             Language = code;
-            stringsDict = LanguageXmlReader.Read(code);
+            stringsDict = LanguageXmlReader.Read(rootPath, code);
             
             PlayerPrefs.SetString(keyPref, code.ToString());
             PlayerPrefs.Save();
@@ -52,6 +53,16 @@ namespace IndigoBunting.Lang
         public string GetText(string key)
         {
             return stringsDict.ContainsKey(key) ? stringsDict[key] : key;
+        }
+
+        public Sprite GetSprite(string key)
+        {
+            Sprite sprite = Resources.Load<Sprite>(rootPath + Language.ToString() + "/" + key);
+            if (sprite == null)
+            {
+                Debug.LogWarning("Sprite " + key + " not found in " + Language.ToString() + " language");
+            }
+            return sprite;
         }
 
         public static LangCode ConvertSystemLanguage(SystemLanguage selected)

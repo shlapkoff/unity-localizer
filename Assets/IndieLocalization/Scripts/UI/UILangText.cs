@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 namespace IndigoBunting.Lang
 {
+    [RequireComponent(typeof(Text))]
     public class UILangText : MonoBehaviour
     {
         [SerializeField]
@@ -28,7 +29,14 @@ namespace IndigoBunting.Lang
 
         private void SetLocalizedText(LangCode code)
         {
-            text.text = Localizer.Instance.GetText(key);
+            if (!string.IsNullOrEmpty(key))
+            {
+                text.text = Localizer.Instance.GetText(key);
+            }
+            else
+            {
+                Debug.LogWarning("Key in the UILangText component on " + gameObject.name + " is null or empty");
+            }
         }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace IndigoBunting.Lang
 {
+    [RequireComponent(typeof(TextMeshProUGUI))]
     public class UILangTextMeshProUGUI : MonoBehaviour
     {
         [SerializeField]
@@ -29,7 +30,14 @@ namespace IndigoBunting.Lang
 
         private void SetLocalizedText(LangCode code)
         {
-            text.SetText(Localizer.Instance.GetText(key));
+            if (!string.IsNullOrEmpty(key))
+            {
+                text.SetText(Localizer.Instance.GetText(key));
+            }
+            else
+            {
+                Debug.LogWarning("Key in the UILangTextMeshProUGUI component on " + gameObject.name + " is null or empty");
+            }
         }
     }
 }
