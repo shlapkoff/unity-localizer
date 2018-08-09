@@ -2,4 +2,5 @@
 <data>
 	<string key="About">Этот текст на русском языке</string>
 	<string key="ChangeLanguage">Сменить язык</string>
+	<string key="TextWithTags">&lt;i&gt;Это текст с тегами&lt;/i&gt;</string>
 </data>

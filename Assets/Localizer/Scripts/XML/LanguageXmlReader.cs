@@ -8,14 +8,14 @@ namespace IndigoBunting.Lang
 {
     public class LanguageXmlReader
     {
-        public static bool IssetLangFile(string rootPath, LangCode lang)
+        public static bool IssetLangFile(string rootPath, Language lang)
         {
             string path = rootPath + lang.ToString() + "/" + lang.ToString();
             TextAsset xmlAsset = Resources.Load(path) as TextAsset;
             return xmlAsset;
         }
         
-        public static Dictionary<string, string> Read(string rootPath, LangCode lang)
+        public static Dictionary<string, string> Read(string rootPath, Language lang)
         {
             string path = rootPath + lang.ToString() + "/" + lang.ToString();
             TextAsset xmlAsset = Resources.Load(path) as TextAsset;

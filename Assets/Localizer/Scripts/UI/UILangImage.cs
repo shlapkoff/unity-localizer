@@ -14,24 +14,29 @@ namespace IndigoBunting.Lang
         private void Awake()
         {
             image = GetComponent<Image>();
-            SetLocalizedSprite(Localizer.Instance.Language);
+            UpdateImage();
         }
 
         private void Start()
         {
-            Localizer.OnChangedLanguage += SetLocalizedSprite;
+            Localizer.OnChangedLanguage += Localizer_OnChangedLanguage;
         }
 
         private void OnDestroy()
         {
-            Localizer.OnChangedLanguage -= SetLocalizedSprite;
+            Localizer.OnChangedLanguage -= Localizer_OnChangedLanguage;
         }
 
-        private void SetLocalizedSprite(LangCode code)
+        private void Localizer_OnChangedLanguage(object sender, LanguageEventArgs e)
+        {
+            UpdateImage();
+        }
+
+        private void UpdateImage()
         {
             if (!string.IsNullOrEmpty(key))
             {
-                image.sprite = Localizer.Instance.GetSprite(key);
+                image.sprite = Localizer.GetSprite(key);
             }
             else
             {

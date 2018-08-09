@@ -15,24 +15,29 @@ namespace IndigoBunting.Lang
         private void Awake()
         {
             text = GetComponent<TextMeshProUGUI>();
-            SetLocalizedText(Localizer.Instance.Language);
+            UpdateText();
         }
 
         private void Start()
         {
-            Localizer.OnChangedLanguage += SetLocalizedText;
+            Localizer.OnChangedLanguage += Localizer_OnChangedLanguage;
         }
 
         private void OnDestroy()
         {
-            Localizer.OnChangedLanguage -= SetLocalizedText;
+            Localizer.OnChangedLanguage -= Localizer_OnChangedLanguage;
         }
 
-        private void SetLocalizedText(LangCode code)
+        private void Localizer_OnChangedLanguage(object sender, LanguageEventArgs e)
+        {
+            UpdateText();
+        }
+
+        private void UpdateText()
         {
             if (!string.IsNullOrEmpty(key))
             {
-                text.SetText(Localizer.Instance.GetText(key));
+                text.SetText(Localizer.GetText(key));
             }
             else
             {
